@@ -1,7 +1,9 @@
 ---
 title: "0- The return of a mythitcal programming language"
 ---
-![Pharo](https://pharo.org/web/files/pharo.png)
+
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
+[Stand](/stands/pharo) | [Next](/stands/pharo/learning-pharo) 
 
 This article is based the french magazine [Programmez! #244](https://www.programmez.com/magazine/article/smalltalk-le-retour-dun-langage-mythique-0)
 and on the [Nootrix article](https://nootrix.com/fr/tutoriels/smalltalk-magazine-2020-11/?elementor-preview=1195&ver=1608481092#introduction) 
@@ -239,4 +241,27 @@ No constructors, no types declaration, no interfaces, no primitive types. Yet a 
 **Full of Awesome :)**
 
 Pharo environment count with many awesome libraries and frameworks! [Awesome Pharo](https://github.com/pharo-open-documentation/awesome-pharo)
+
+
+
+​​​​​
+
+​​​​​
+
+
+​​​​​
+
+
+
+
+[Pharo](/stands/pharo/pharo) 
+| [Learning Pharo](/stands/pharo/learning-pharo) 
+| [Contribute!](/stands/pharo/contribute-pharo)
+| [Visualizations](/stands/pharo/visualfwk)
+| [The Moose Platform](/stands/pharo/pharo-software-analysis)
+| [Interoperability](/stands/pharo/pharojs)
+| [Some fun :)](/stands/pharo/fun-with-pharo)
+| [Using blockchain](/stands/pharo/pharo-blockchain)
+| [Robotics, AI and mathematics](/stands/pharo/pharo-robotics)
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
 

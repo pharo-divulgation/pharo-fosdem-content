@@ -3,6 +3,10 @@ title: "8- Pharo: Robotics, AI and mathematics "
 ---
 
 
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
+[Previous](/stands/pharo/pharo-blockchain) | [Stand](/stands/pharo) 
+
+
 ROS + Pharo! 
 ============
 
@@ -138,7 +142,29 @@ Here a wonderful video on Data Analysis for Pharo with PolyMath!
 
 {{<youtube msbSdK9QXZ0>}}
 	
-	
+
+
+
+​​​​​
+
+​​​​​
+
+
+​​​​​
+
+
+
+
+[Pharo](/stands/pharo/pharo) 
+| [Learning Pharo](/stands/pharo/learning-pharo) 
+| [Contribute!](/stands/pharo/contribute-pharo)
+| [Visualizations](/stands/pharo/visualfwk)
+| [The Moose Platform](/stands/pharo/pharo-software-analysis)
+| [Interoperability](/stands/pharo/pharojs)
+| [Some fun :)](/stands/pharo/fun-with-pharo)
+| [Using blockchain](/stands/pharo/pharo-blockchain)
+| [Robotics, AI and mathematics](/stands/pharo/pharo-robotics)
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
 	
 	
 	

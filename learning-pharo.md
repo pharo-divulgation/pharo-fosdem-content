@@ -2,6 +2,11 @@
 title: "1- Pharo: Learning Pharo"
 ---
 
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
+[Previous](/stands/pharo/pharo) | [Stand](/stands/pharo) | [Next](/stands/pharo/contribute-pharo) 
+
+
+
 
 Want to learn? Pharo Mooc
 ----------------
@@ -27,3 +32,26 @@ Pharo counts with lots of books!
 {{< figure src="/stands/pharo/books/pharo-enterprise.png" title="Enterprise Pharo" width="200" link="https://books.pharo.org/enterprise-pharo/" target="_blank">}}
 {{< figure src="/stands/pharo/books/pharo5-by-example.png" title="Pharo by Example 50" width="200" link="https://books.pharo.org/updated-pharo-by-example/" target="_blank">}}
 
+
+
+
+​​​​​
+
+​​​​​
+
+
+​​​​​
+
+
+
+
+[Pharo](/stands/pharo/pharo) 
+| [Learning Pharo](/stands/pharo/learning-pharo) 
+| [Contribute!](/stands/pharo/contribute-pharo)
+| [Visualizations](/stands/pharo/visualfwk)
+| [The Moose Platform](/stands/pharo/pharo-software-analysis)
+| [Interoperability](/stands/pharo/pharojs)
+| [Some fun :)](/stands/pharo/fun-with-pharo)
+| [Using blockchain](/stands/pharo/pharo-blockchain)
+| [Robotics, AI and mathematics](/stands/pharo/pharo-robotics)
+{{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
