@@ -3,30 +3,21 @@ title: Pharo
 themes:
  - Community advocacy
 website: https://www.pharo.org
-logo: stands/fosdem/cogweel.png
+logo: stands/pharo/Pharo_Beacon_v3.0.png
 description: |
 
- <h3>Pharo</h3>
- <p>Is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback (think IDE and OS rolled into one).</p>
- <p> Check out our website! <a target="_blank" href="https://www.pharo.org/">https://www.pharo.org/</a>  </p>
+
  
- <h5> Simple & powerful language</h5>
+ <h3> The community </h3>
+ <p> The only thing we love more than our language, is our community. Pharo, community and our wonderful Smalltalk neighbours. With 28 years running ESUG conference has been our home since always. And we really think that the best way to show how beautiful is our community is by sharing our last experience together, on 2019, at Koln, Germany. 
+  We hope COVID-19 to be soon an awful memory, and to come back to feel all this wonderful human beings sharing all this passion. 
+ </p>
+
+  
+ <iframe width="1024" height="615" src="https://www.youtube.com/embed/q9VYlfbdKys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
- <p>No constructors, no types declaration, no interfaces, no primitive types. Yet a powerful and elegant language with a full syntax fitting in one postcard! Pharo is objects and messages all the way down.</p>
-
- <h5> Live, immersive environment</h5>
- <p>Immediate feedback at any moment of your development: Developing, testing, debugging. Even in production environments, you will never be stuck in compiling and deploying steps again!</p>
-
- <h5>Amazing debugging experience</h5>
- <p>The Pharo environment includes a debugger unlike anything you've seen before. It allows you to step through code, restart the execution of methods, create methods on the fly, and much more!</p>
-
- <h5>Pharo is yours</h5>
- <p>Pharo is made by an incredible community, with more than 100 contributors for the last revision of the platform and hundreds of people contributing constantly with frameworks and libraries.</p>
-
-
- <h5>Fully open-source</h5>
- <p>Pharo full stack is released under MIT License.</p>
  
+
  
 showcase: |
   
@@ -60,4 +51,42 @@ new_this_year: |
 
 layout: stand
 ---
-Welcome to the Pharo stand!
+This article is based the french magazine Programmez! #244
+[https://www.programmez.com/magazine/article/smalltalk-le-retour-dun-langage-mythique-0](https://www.programmez.com/magazine/article/smalltalk-le-retour-dun-langage-mythique-0)
+And on the [https://nootrix.com/fr/tutoriels/smalltalk-magazine-2020-11/?elementor-preview=1195&ver=1608481092#introduction](https://nootrix.com/fr/tutoriels/smalltalk-magazine-2020-11/?elementor-preview=1195&ver=1608481092#introduction) 
+
+
+Introduction 
+==============
+
+
+Smalltalk is not the best known programming language. And yet, it played a huge role in microcomputing and the great technological revolutions of the 70s and 80s. 
+We invites you to discover and rediscover this fantastic language before taking a long look at Pharo, a modern implementation of Smalltalk.
+
+40 years has passed from the born of smalltalk, and still its syntax (remarkably simple), has not been modified. 
+If you've ever heard of Smalltalk, you may also have heard that its syntax fits on a simple postcard. 
+This is neither a legend nor an exaggeration: one postcard is indeed enough to define the entire syntax of Smalltalk.
+![Postcard](https://i2.wp.com/nootrix.com/wp-content/uploads/2020/12/pharoSyntax.jpg)
+As you have seen, Smalltalk syntax is both shockingly simple and incredibly powerful.
+
+
+
+
+Pharo is a direct and free descendant of Smalltalk, launched in 2008 under MIT license. It combines stability and innovation, thanks to a community that includes both companies and academic institutions.
+
+Forget about files! when we code, we think in terms of packages, classes and methods. It is precisely these concepts that are put forward by Pharo's System Browser tool.
+
+2 files to control them all. The Pharo developer creates and initializes the objects that make up the program. Then, he saves the contents of the working memory in a binary file called image. At runtime, the Pharo virtual machine transfers the contents of the image file to the RAM memory. All the saved objects are then ready to use. The majority of the initialization operations being made during the development, the loading of the program is done at lightning speed! 
+
+Interactive test-driven development. Another feature of Pharo is its ability to replace code while it is running. Application development can thus be carried out incrementally. The fields and methods needed are added as features are introduced. Objects are automatically updated by Pharo in order to integrate the changes without ever having to restart any interpreter or recompile files. 
+
+This interactivity combines perfectly with the TDD (Test Driven Development) approach of test-driven development, well known in agile project management methodologies.
+
+
+
+
+
+
+
+
+
