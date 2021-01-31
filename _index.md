@@ -1,7 +1,7 @@
 ---
 title: Pharo
 themes:
- - Community advocacy
+ - Programming languages
 website: https://www.pharo.org
 logo: stands/pharo/Pharo_Beacon_v3.0.png
 description: |
