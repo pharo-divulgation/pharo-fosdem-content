@@ -12,15 +12,16 @@ description: |
   
  
   You may join us on our different communications endpoints :)  <br/>
+   <br/>
   
+  Discord: <a href="https://discord.gg/QewZMZa" target="_blank">https://discord.gg/QewZMZa</a> <br/>
   
-  Discord: <a href="https://discord.gg/QewZMZa">https://discord.gg/QewZMZa</a> <br/>
+  Mailing List: <a href="https://lists.pharo.org/" target="_blank">https://lists.pharo.org/</a> <br/>
   
-  Mailing List: <a href="https://lists.pharo.org/">https://lists.pharo.org/</a> <br/>
+  PharoWeekly: <a href="https://pharoweekly.wordpress.com/" target="_blank">https://pharoweekly.wordpress.com/</a> <br/>
+  PharoDev: <a href="https://thepharo.dev/" target="_blank"	>https://thepharo.dev/</a> <br/>
   
-  PharoWeekly: <a href="https://pharoweekly.wordpress.com/">https://pharoweekly.wordpress.com/</a> <br/>
-  PharoDev: <a href="https://thepharo.dev/">https://thepharo.dev/</a> <br/>
-  
+  Twitter:  <a href="https://twitter.com/pharoproject" target="_blank"	>@pharoproject</a> <br/>
   
  </p>  
  <iframe width="1024" height="615" src="https://www.youtube.com/embed/q9VYlfbdKys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

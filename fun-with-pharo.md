@@ -82,6 +82,30 @@ In such an live-programming environment, debugging experience becomes not only n
 
 
 
+Do you love Music?! 
+=================
+
+
+We love music too. We just like it from different sources, and without publicity if possible. 
+Here a video of the Event Music Player. Developed on pharo, base on pharo interoperability with C! 
+Thanks VLC. You are the best friend.
+
+{{< youtube 41cP6vWnGo8 >}}
+
+
+
+
+​​​​​
+
+​​​​​
+
+
+​​​​​
+
+
+
+
+
 [Pharo](/stands/pharo/pharo) 
 | [Learning Pharo](/stands/pharo/learning-pharo) 
 | [Contribute!](/stands/pharo/contribute-pharo)

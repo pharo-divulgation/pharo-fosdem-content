@@ -44,6 +44,45 @@ Moose counts with a large documentation on the github page [MooseWiki](https://m
 
 
 
+
+
+​​​​​
+
+
+
+
+	
+	
+
+
+
+
+
+COM+ And Microsoft Access project Analysis
+===========================
+
+
+Microsoft Access is a really popular privative RAD Language. 
+In the following video we present progress on the work of Microsoft Access project analysis, to unlock the migration from Microsoft Access to open source technologies! We love open source that much :).
+
+
+{{<youtube cR489Gy8kJg>}}
+	
+
+
+
+
+
+​​​​​
+
+
+
+
+	
+	
+
+
+
 [Pharo](/stands/pharo/pharo) 
 | [Learning Pharo](/stands/pharo/learning-pharo) 
 | [Contribute!](/stands/pharo/contribute-pharo)
