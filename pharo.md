@@ -16,7 +16,7 @@ and on the [Nootrix article](https://nootrix.com/fr/tutoriels/smalltalk-magazine
 ​​​​​
 
 
-
+TEST FOR EMbeDDING VIDEO: 
 
 <div class="video">
   <video preload="none" controls="controls">
