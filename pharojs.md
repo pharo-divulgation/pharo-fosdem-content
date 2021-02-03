@@ -1,29 +1,24 @@
 ---
-title: "5- Pharo: Interoperability "
+title: "4 - Interoperability "
 ---
 
 {{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
 [Previous](/stands/pharo/pharo-software-analysis) | [Stand](/stands/pharo) | [Next](/stands/pharo/fun-with-pharo)
 
-PharoJS Project
+Interoperability
 ================
 
+PharoJS
+---------------
 
 PharoJS Project is mainly developed by Noury Bouraqadi & Dave Mason. 
 
 Keep tuned on [Nootrix](https://nootrix.com/) for news on PharoJS! 
 
 
-PharoJS is a set of tools and libraries (MIT license) that allow to benefit from the Pharo environment for the design of JavaScript applications. The development is carried out entirely in Pharo. The passage in production consists in converting this code to obtain in fine a JavaScript application.
-
-All the code written by PharoJS application developers is Pharo code that creates and connects the application objects. These objects can come from the Pharo world as well as from the JavaScript world.
-
+PharoJS is a set of tools and libraries (MIT license) to develop JavaScript applications from Pharo.
+The passage in production consists in converting this code to obtain in fine a JavaScript application.
 PharoJS allows to develop in Pharo applications executable by NodeJS or a web browser. We code in Pharo, then generate JavaScript for servers and web clients, as well as iOS and Android smartphones. It is possible to reuse and seamlessly integrate libraries from both the JavaScript and Pharo worlds.
-
-
-Testing is core in Pharo development. 
-On this video we can see a nice test running PharoJS, on pharo language and on the browser! Magic :)
-
 
 
 {{<youtube tGP4FTij5q8>}}
@@ -31,75 +26,49 @@ On this video we can see a nice test running PharoJS, on pharo language and on t
 
 
 
-
-​​​​​
-
-
-
-
-
-
-
 PyBridge
-========
+---------------
 
-PyBridge is a really nice project on the intercommunication with Python. 
-PyBridge allows a bidirectional communication, allowing Python to use Pharo, Pharo to use Python. 
-
-It may be the beginning of a wonderful friendship :)
+PyBridge allows a bidirectional communication between Pharo and Python, where it enables Python to use Pharo, and Pharo to use Python. 
 
 
 {{<youtube EbG9TlLncAA>}}
 
 
-​​​​​
-
-Pharo as Universal Development Environment @ ESUG 19
-===================================================
-Dave Mason amazes us by using Pharo to develop everywhere! (PharoJS Included :)) 
+## Blockchain Integration: Fog and UQLL
 
 
+Blockchain technology has been by for more than ten years already, and want it or not is changing our lives and the way we interact, and it will probably keep on doing it. 
+
+In Pharo community we spent time doing bridges to bind with Ethereum platform in many ways.
 
 
-{{<youtube 2d2otdj66dw>}}
-
+{{<youtube _4yy5d0yiQ>}}
 
 
 
 
-​​​​​
+### [Fog](https://github.com/smartanvil/Fog)
+
+
+Fog is our base library for interacting with ethereum. 
+It counts with a nice documentation, on implementation and on API.
+
+Fog achieves a transparent interaction with remote Contracts, and a high level of data instrospection. 
+
+Thanks to the large knowledge of the Ethereum internals we are able to navigate the database comprehensibly and deeply. 
 
 
 
+### [UQLL/UQL](https://github.com/smartanvil/UQL)
 
 
-​​​​​
+Ethereum and blockchain databases in general proof to generate large amounts of data. 
+These reality ease the possibilities of losing highly important key information (such as tracing transactions or specific accounts hash numbers) on a sea of data. 
 
-PharoJS @ ESUG 16
-=================
+UQLL is a query language based on the indexation of specific data along the different epochs of Ethereum that allows simple semantic query over semanticless contextes. 
 
-Pharo JS has been in between us for long time already. 
-Here there is a 5 years old talk, and it is amazing how the content still contemporary. 
-
-
-
-
-{{<youtube nmRPSb0t9lw>}}
-	
-
-	
-
-
-
-
-
-
-​​​​​
-
-​​​​​
-
-
-​​​​​
+UQLL unlocks the indexing not only of specific accounts and dates, but also the indexing of specific contracts and contract's values.
 
 
 

@@ -1,46 +1,40 @@
 ---
-title: "1- Pharo: Learning Pharo"
+title: "2 - Learning and Contributing"
 ---
 
 {{< figure src="/stands/pharo/Pharo_Beacon_v3.0.png" title="" width="30" link="https://www.pharo.org" target="_blank">}}
 [Previous](/stands/pharo/pharo) | [Stand](/stands/pharo) | [Next](/stands/pharo/contribute-pharo) 
 
+## Learning and Contributing to Pharo
+
+##Learning:  Pharo Mooc
 
 
-
-Want to learn? Pharo Mooc
-----------------
+If you're interested in learning Pharo, you can check out the Pharo Mooc (a set of videos, exercises, challenges, and miniprojects). The Pharo Mooc is fully dubbed in french and english. It comes with community supported subtitles in Japanese, english, french and spanish.
 
 {{< figure src="/stands/pharo/books/mooc.png" title="" width="600" link="https://www.fun-mooc.fr/courses/course-v1:inria+41024+session01/about" target="_blank">}}
 
-The Pharo Mooc counts with multiple languages, in audio and subtitles!
+Check out http://mooc.pharo.org/
 
 
+##Learning:  Books
 
-Want to read?
-----------------
 
-Pharo counts with lots of books!
+Pharo counts with lots of books available for free in PDF, many of them licensed as Creative Commons.
+The available books cover the basics of the language, advanced libraries and frameworks, and teaching material for many university courses. You can read, and contribute your comments!
 
-{{< figure src="/stands/pharo/books/learning-oop-design-tdd-pharo.png" title="Learning OOP With Pharo" width="200" link="https://books.pharo.org/learning-oop/" target="_blank">}}
-{{< figure src="/stands/pharo/books/a-simple-reflective-object-kernel.png" title="A simple reflective object kernel" width="200" link="https://books.pharo.org/booklet-ReflectiveCore/" target="_blank">}}
-{{< figure src="/stands/pharo/books/iceberg.png" title="Manage your code with Iceberg" width="200" link="https://books.pharo.org/booklet-ManageCode/pdf/2020-05-12-ManageCode.pdf" target="_blank">}}
-{{< figure src="/stands/pharo/books/uffi-calling-foreign-functions.png" title="Unified FFI - Calling Foreign Functions from Pharo" width="200" link="https://books.pharo.org/booklet-uffi/" target="_blank">}}
-{{< figure src="/stands/pharo/books/zinc-an-industrial-https-fwk.png" title="Zinc: an industrial quality level HTTP/S framework" width="200" link="https://books.pharo.org/booklet-Zinc/" target="_blank">}}
-{{< figure src="/stands/pharo/books/orm-voyage.png" title="Voyage: Persisting Objects in Document Databases" width="200" link="https://books.pharo.org/booklet-Voyage/" target="_blank">}}
-{{< figure src="/stands/pharo/books/orm-glorp.png" title="Object-Relational Persistence with Glorp" width="200" link="https://books.pharo.org/booklet-Glorp/" target="_blank">}}
-{{< figure src="/stands/pharo/books/pharo-enterprise.png" title="Enterprise Pharo" width="200" link="https://books.pharo.org/enterprise-pharo/" target="_blank">}}
-{{< figure src="/stands/pharo/books/pharo5-by-example.png" title="Pharo by Example 50" width="200" link="https://books.pharo.org/updated-pharo-by-example/" target="_blank">}}
+Check out http://books.pharo.org/
+
+##Contributing
 
 
 
 
-​​​​​
 
-​​​​​
+In this video we show you how to get to commit some code and propose a pull request for the Pharo language. 
+All the contribution lifecycle is managed within the Pharo IDE, by using Iceberg :)
 
-
-​​​​​
+{{< youtube PK2yCu2rWCc >}}
 
 
 

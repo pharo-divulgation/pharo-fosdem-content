@@ -1,5 +1,5 @@
 ---
-title: "6- Pharo: Some fun :)"
+title: "3 - Pharo Features Showcase"
 ---
 
 

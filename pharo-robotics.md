@@ -1,5 +1,5 @@
 ---
-title: "8- Pharo: Robotics, AI and mathematics "
+title: "7 - Pharo: Robotics, AI and Math"
 ---
 
 
@@ -7,8 +7,10 @@ title: "8- Pharo: Robotics, AI and mathematics "
 [Previous](/stands/pharo/pharo-blockchain) | [Stand](/stands/pharo) 
 
 
-ROS + Pharo! 
-============
+# Robotics, AI and Math
+
+##ROS + Pharo! 
+
 
 Pharo is a really powerful live-programming environment. 
 There are many many possible usages of such a language, but probably one of the most excitings is on robotics. 
@@ -97,8 +99,8 @@ And some of it has been also pursuited in Inria Lille.
 
 
 
-Artifitial Intelligence
-===========
+## Artifitial Intelligence and Machine Learning
+
 
 
 
@@ -121,8 +123,8 @@ Keras Is also great way to interact with machine learning solutions.  And we do 
 
 
 
-PolyMath
-===========
+## PolyMath
+
 
 ![Logo](https://raw.githubusercontent.com/PolyMathOrg/PolyMath/master/assets/logos/logo.png)
 
