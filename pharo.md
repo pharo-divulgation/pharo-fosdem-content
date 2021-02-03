@@ -18,6 +18,13 @@ and on the [Nootrix article](https://nootrix.com/fr/tutoriels/smalltalk-magazine
 
 
 
+<div class="video">
+  <video preload="none" controls="controls">
+    <source src="http://rmod-files.lille.inria.fr/Videos/UnitGraine-object-oriented-programming-Ducasse.mp4" type='video/mp4;' />
+  </video>
+</div>
+
+
 
 ​​​​​
 
