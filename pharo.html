@@ -1,0 +1,153 @@
+---
+title: 1- The Return of a Mythical Programming Language
+---
+
+<div class="row">
+        <div class="col">
+            <p><figure><a href="https://www.pharo.org" target="_blank">
+    <img src="/stands/pharo/Pharo_Beacon_v3.0.png" width="30"/> </a>
+</figure>
+
+<a href="/stands/pharo">Stand</a> | <a href="/stands/pharo/learning-pharo">Next</a></p>
+<p>This article is based the french magazine <a href="https://www.programmez.com/magazine/article/smalltalk-le-retour-dun-langage-mythique-0">Programmez! #244</a>
+and on the <a href="https://nootrix.com/fr/tutoriels/smalltalk-magazine-2020-11/?elementor-preview=1195&amp;ver=1608481092#introduction">Nootrix article</a></p>
+<p>​​​​​</p>
+
+
+
+
+
+<div>
+	<h1 id="introduction">Introduction</h1>
+	<p>Smalltalk is not the best known programming language. And yet, it has played a huge role in microcomputing and the great technological revolutions of the 70s and 80s. We invite you to discover and rediscover this fantastic language before taking a long look at Pharo, a modern Smalltalk implementation.</p>
+	<p>40 years has passed since Smalltalk was born, and still its remarkably simple syntax has not been modified.
+		If you&rsquo;ve ever heard of Smalltalk, you may also have heard that its syntax fits on a simple postcard.
+		This is neither a legend nor an exaggeration: one postcard is indeed enough to define the entire syntax of Smalltalk.
+		​​​​​Smalltalk syntax is both shockingly simple and incredibly powerful!</p>
+		<p>Time passes really fast! Pharo 8.0 was alpha on ESUG &lsquo;19! Today, our alpha Pharo version is Pharo 9.0.
+			The following video, from the ESUG'19 conference, showcases the features of the Pharo 8.0 alpha release.
+			The upcoming 9.0 version has way more interesting things to share!</p>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<div class="video">
+		<video preload="none" controls="controls">
+			<source src="http://rmod-files.lille.inria.fr/Videos/2020-09-26-powerfull-Tools-SCAM.mp4" type='video/mp4;' />
+	  </video>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+</div>
+
+<div>
+	<h1 id="power-of-simplicity">Power of simplicity</h1>
+	<p>​​​​​Pharo is a direct and free descendant of Smalltalk, launched in 2008 under the MIT license.
+		It combines stability and innovation, thanks to a community that includes both companies and academic institutions.</p>
+		<p>Forget about files! When we code, we think in terms of packages, classes and methods.
+			It is precisely these concepts that are put forward by Pharo&rsquo;s IDE.
+			We have <strong>2 files to control them all</strong>. The Pharo developers creates and initializes the classes and objects that make up the program. Then, they save the contents 			of the working memory in a binary file called an image. At runtime, the Pharo virtual machine transfers the contents of the image file to the RAM memory. All the saved objects are 			then ready to use. The majority of the initialization operations being made during the development, the loading of the program is done at lightning speed!
+		</p>
+		<p>Another key feature of Pharo is its ability to replace code while it is running, allowing <strong>interactive test-driven development</strong>. Application development is 		carried out incrementally. Fields and methods are added as they are needed. When such changes happens, objects are automatically updated without ever having to restart the program or do a full recompilation.
+			This interactivity combines perfectly with the TDD (Test Driven Development) approach of test-driven development, well known in agile project management methodologies.
+		</p>
+</div>
+
+<h1 id="the-pharos-virtual-machine">The Pharo&rsquo;s Virtual Machine</h1>
+<p>The Pharo VM has interesting capabilities that highlight the power of Smalltalk. In addition, it is an excellent VM for both research and production use because of its long and rich history and its very promising future. The Pharo VM is the product of a continuous evolution over a long period of time. It includes elements that were introduced in the original versions of Smalltalk and have evolved since then. It includes modern techniques such as Just In Time compilation and advanced automatic garbage collectors.</p>
+<p>One of the main advantages of the Pharo VM is that it is written in Pharo and can be run like any other Pharo program. This allows us to test and simulate it, while using existing Pharo tools on it like any other program.
+By testing, and writing the source code of the virtual machine on Pharo itself, we are not only looking for fancing and for high level language power, but specially to demystify the subject, and to empower developers to get into the virtual machine development. This is what we consider to be a truly open-source version.</p>
+<p>The Pharo VM is available for ARMv7, ARMv8, x86 and x86-64; updated versions for Windows, Linux and Mac.
+The following video shows some of the latest steps done on the Pharo VM:</p>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<div class="video">
+		<video preload="none" controls="controls">
+			<source src="http://rmod-files.lille.inria.fr/Videos/fosdem/Present+and+Future+of+the+Pharo+VM%20+Headless+and+Beyond.mp4" type='video/mp4;' />
+	  </video>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+<h1 id="iceberg-how-did-pharo-came-to-use-git">Iceberg: How did Pharo came to use GIT</h1>
+<p>​​​​​</p>
+<p>For the past two years, Pharo has offered a very close integration with the Git backend manager, which replaced Monticello, the version manager Pharo had been using since 2008. Not only can projects written in Pharo be stored on Git forges and repositories, but the Pharo project itself is managed with a Git repository.</p>
+<p>Iceberg (our tool for GIT integration) offers the best of both worlds: programming with living objects, one of Smalltalk&rsquo;s fundamental concepts, and transparent text backups as the IDEs on the market traditionally do.</p>
+<p>To simplify the installation of Pharo and Git Iceberg uses the libgit library, which implements the basic Git functionalities, and is written in C in a portable way. Iceberg uses libgit via the UnifiedFFI library.
+UnifiedFFI allows to interface Pharo with extensive libraries. FFI allows to apply external libraries that have a standard calling convention, such as C code, with a dynamic link.</p>
+<p>The following video shows how Icerberg makes our lives happier:</p>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<div class="video">
+		<video preload="none" controls="controls">
+			<source src="http://rmod-files.lille.inria.fr/Videos/fosdem/ESUG+2018+-+Iceberg+2018%20+bringing+Pharo+to+git,+or+git+to+Pharo%20.mp4" type='video/mp4;' />
+	  </video>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+
+<h1 id="taskit-the-concurrent-task-framework">​​​​​
+TaskIt: The concurrent task framework</h1>
+<p>TaskIt appears on the context of the development of robotics applications, introducing concepts to address concurrent processing on Pharo.
+After many years of development and refinement by usage in multiple contexts, TaskIt has been finally incorporated into the standard Pharo 9 release.
+TaskIt counts with different processing architectures within the image such as Workers, UI task runners, and single shot runners. TaskIt also counts with worker pools to manage architectural concurrency.</p>
+<p>​​​​​</p>
+<p>​​​​​
+The following presentation showcases TaskIt at ESUG 19
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<div class="video">
+		<video preload="none" controls="controls">
+			<source src="http://rmod-files.lille.inria.fr/Videos/fosdem/Concurrency%20+TaskIt+processing+framework.mp4" type='video/mp4;' />
+	  </video>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+</p>
+
+
+<p><a href="/stands/pharo/pharo">Pharo</a>
+| <a href="/stands/pharo/learning-pharo">Learning Pharo</a>
+| <a href="/stands/pharo/contribute-pharo">Contribute!</a>
+| <a href="/stands/pharo/visualfwk">Visualizations</a>
+| <a href="/stands/pharo/pharo-software-analysis">The Moose Platform</a>
+| <a href="/stands/pharo/pharojs">Interoperability</a>
+| <a href="/stands/pharo/fun-with-pharo">Some fun :)</a>
+| <a href="/stands/pharo/pharo-blockchain">Using blockchain</a>
+| <a href="/stands/pharo/pharo-robotics">Robotics, AI and mathematics</a>
+<figure><a href="https://www.pharo.org" target="_blank">
+    <img src="/stands/pharo/Pharo_Beacon_v3.0.png" width="30"/> </a>
+</figure>
+</p>
+
+        </div>
+    </div>
+</div>
