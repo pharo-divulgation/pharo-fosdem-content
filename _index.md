@@ -3,7 +3,7 @@ title: Pharo
 themes:
  - Programming languages
 website: https://www.pharo.org
-logo: stands/pharo/Pharo_Beacon_v3.0.png
+logo: stands/pharo/logo.png
 description: |
 
  <a href="https://pharo.org" target="_blank">Pharo</a> is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback (think IDE and OS rolled into one). 
