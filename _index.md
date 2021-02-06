@@ -68,8 +68,11 @@ showcase: |
    Twitter:  <a href="https://twitter.com/pharoproject" target="_blank"	>@pharoproject</a> <br/>
   
   </p>  
-  <iframe width="1024" height="615" src="https://www.youtube.com/embed/q9VYlfbdKys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video">
+	<video width="100%" autoplay preload="auto" controls="controls">
+		<source src="rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" type='video/mp4;' />
+  </video>
+</div>
 
 new_this_year: |
     Pharo language has two faces, the industrial face and the research face. This last year we have been brewing many new things.
