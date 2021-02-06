@@ -49,7 +49,7 @@ showcase: |
   </p>  
 <div class="video">
 	<video width="100%" autoplay preload="auto" controls="controls">
-		<source src="rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" type='video/mp4;' />
+		<source src="http://rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" type='video/mp4;' />
   </video>
 </div>
 
