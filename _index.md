@@ -16,28 +16,7 @@ showcase: |
   <p>Come to our stand to meet the community behind Pharo. Meet key engineers and researchers behind the language development. Meet the rich multiple communities that pharo hubs, from radically different origins. 
   From public research to private business, from software & language research & development to  human rights hacktivism, Pharo community is a really rich meltingpot of international technological improvement, political struggle and beautiful human exchange!   </p>
   
-  <h3 style="clear:both;">Program</h3>
-  <ul class="list-unstyled">
-      <li>
-      <h6>Saturday</h6>
-      <ul class="list-unstyled">
-          <li><b>entire day</b>: Rolling Interviews to Pharo Community Members</li>
-          <li><b>10:00 - 11:00</b>: meet our Pharo Language Engineers. (chat & video)</li>
-          <li><b>13:00 - 14:00</b>: contributing to Pharo (video)</li>
-          <li><b>16:00 - 17:00</b>: A discussion on the Pharo Community(chat & video)</li>
-      </ul>
-      </li>
-      <li class="mt-2">
-      <h6>Sunday</h6>
-      <ul class="list-unstyled">
-          <li><b>entire day</b>:  Rolling Interviews to Pharo Community Members</li>
-         <li><b>10:00 - 11:00</b>: Live interviewing a Beginner Pharo user. (chat & video)</li>
-         <li><b>13:00 - 14:00</b>: Pharo Coding Dojo:  </li>
-         <li><b>16:00 - 17:00</b>: TDD </li>
-      </ul>
-      </li>
-  </ul>
-  
+
   <h3>A glimpse of Pharo</h3>
 
   <pre>
