@@ -32,24 +32,24 @@ showcase: |
       <li>  Fully open-source: Pharo full stack is released under MIT License and available on GitHub
     </ul>
     <h5>Our programme at FOSDEM:</h5>
-    <ul class="list-unstyled">
-        <li>
-        <h6>Saturday</h6>
-        <ul class="list-unstyled">
-			<li><b>15:15 - 15:30</b>: Getting along with Pharo 8.0 </li>
-			<li><b>15:30 - 15:45</b>: Getting along with Iceberg </li>
-            <li><b>15:45 - 17:00</b>: Implementing tiny blog. </li>
-        </ul>
-        </li>
-        <li class="mt-2">
-        <h6>Sunday</h6>
-        <ul class="list-unstyled">
-			<li><b>11:15 - 11:30</b>: Getting along with Pharo 8.0 </li>
-			<li><b>11:30 - 11:45</b>: Getting along with Iceberg </li>
-            <li><b>11:45 - 13:00</b>: Implementing tiny blog. </li>
-        </ul>
-        </li>
-    </ul>
+      <ul class="list-unstyled">
+      <li>
+      <h6>Saturday</h6>
+      <ul class="list-unstyled">
+      <li><b>15:15 - 15:30</b>: Getting along with Pharo 8.0 </li>
+      <li><b>15:30 - 15:45</b>: Getting along with Iceberg </li>
+      <li><b>15:45 - 17:00</b>: Implementing tiny blog. </li>
+      </ul>
+      </li>
+      <li class="mt-2">
+      <h6>Sunday</h6>
+      <ul class="list-unstyled">
+      <li><b>11:15 - 11:30</b>: Getting along with Pharo 8.0 </li>
+      <li><b>11:30 - 11:45</b>: Getting along with Iceberg </li>
+      <li><b>11:45 - 13:00</b>: Implementing tiny blog. </li>
+      </ul>
+      </li>
+      </ul>
 
   <h3>Community</h3>
   
