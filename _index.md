@@ -46,12 +46,18 @@ showcase: |
   
    Twitter:  <a href="https://twitter.com/pharoproject" target="_blank"	>@pharoproject</a> <br/>
   
-  </p>  
+
+  
   <div class="video">
-  <video width="100%" autoplay preload="auto" controls="controls">
-  <source src="http://rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" type='video/mp4;' />
+   <video width="100%" autoplay preload="auto" controls="controls">
+   <source src="http://rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" type='video/mp4;' />
   </video>
   </div>
+  This video presents a short teaser of the last European Smalltalk User Group conference. 
+  An excellent meeting point for the Pharo community and all the smalltalk community in general.
+  <br/>
+  Link: <a href="http://rmod-files.lille.inria.fr/Videos/fosdem/Esug2019.mp4" target="_blank">View Video</a>
+
 
 new_this_year: |
     Pharo language has two faces, the industrial face and the research face. This last year we have been brewing many new things.
