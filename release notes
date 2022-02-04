@@ -1,0 +1,43 @@
+
+
+# Change log. 
+
+
+## Architecture
+	* Jin remote objects now cache some contents due to analysis performance (The idea is to reduce the overhead of the MSAccess calls that are done more often).
+		* JinAccessObject caches the #name attribute. 
+		* JinProject on the collections forms, query, reports, modules, macros, tables and queries. 
+		* JinForm and JinReport also follow the same cache for the controls collections.
+		* JinTable / JinQuery fields collection still creating a new collection for each call.
+	* Collections still lazy initialized. 
+	* Remote handles change the properties from Set to Ordered collection for performance reasons. 
+	* New Properties Collection (Affecting Forms/Reports and Controls) 
+		- Properties are not obtained by call anymore, but generated from the MS access documentation: From now on, the properties do not have a handle, but they know the parent object. They are configured with the selector and they know how to use the parent object to get the information from the Access project. 
+		- Properties cache the value. 
+
+	
+## Jindao + Casino + Moose
+	* Jin Dao adds a Moose metamodel-like façade that allows the model to be treadted as a moose model, allowing to reuse moose tools over it. 
+	* JinCSNModelExporterAngularBLSpecific adds support to layout inference
+		- An access form is meant to produce a CSNUIPanel as root element of the widget.
+		- To contain multiple layouted elements, A form adds a CSNUIFieldset intermediate container into CSNUIPanel. 
+		- The CSNUIFieldset and contained items are to be annotated with objects as CSNUILayoutTop,  CSNUILayoutBottom, etc (Check Casino help for more information). 
+		- The only layout supported so far is the CSNTabulatedLayout. CSNAbsolutePositionLayout is not yet functional. 
+	* JinCasinoProject (Inheriting a classic CasinoProject) overrides the usage of BusinessPage, since it does not make sense in a heavy client context.
+	* JinCasinoProject traceability: This release allows keeps the traceability of the origin and generated components (Useful for testing)
+
+
+## Meta-notes
+	* The cache of the objects is not ready to be discarded or marked as too-old. This could lead to analysis based on non-representative data.
+	* The same happens with the properties. Leak tests have not been implemented yet. This could threaten the size of a project on image.
+	
+	
+# Release notes
+
+ 	JinDao new version reduce the accessing performance by implementing cached collections and properties over the most expensive elements. 
+	Yet some memory leakage could be perceived in this release. 
+	
+	
+	JinDao+Casino for Access to Angular migration now supports automatic layout migration for TabulatedLayouts. 
+	
+	
